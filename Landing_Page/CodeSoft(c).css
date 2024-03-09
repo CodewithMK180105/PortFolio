@@ -1,0 +1,537 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#first{
+    /* height: 8vh; */
+    background: linear-gradient(to right,yellow,rgb(224, 58, 86));
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: aliceblue;
+    font-size: 1.2rem;
+}
+#icons img{
+    width: 42px;
+    mix-blend-mode: darken;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    cursor: pointer;
+}
+.btn{
+    background: transparent;
+    border-radius: 20px;
+    border-color: white;
+    color: white;
+    font-size: 1.2rem;
+    padding: 7px 13px;
+    cursor: pointer;
+}
+#req{
+    margin: 5px 0;
+}
+#self span{
+    margin: 0 22px;
+    cursor: pointer;
+}
+#icon{
+    margin: 0 12px;
+}
+#second{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#landingPage{
+    display: flex;
+    gap: 14px;
+    align-items: center;
+    font-weight: 900;
+    font-size: 1.7rem;
+}
+#second #landingPage img{
+    width: 75px;
+}
+
+#menu-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#menu-list li{
+    margin: 0 14px;
+    padding: 9px 16px;
+    font-size: 1.25rem;
+    list-style: none;
+    cursor: pointer;
+}
+#search-icon img{
+    width: 37px;
+    cursor: pointer;
+}
+.section{
+    height: 100vh;
+    width: 100vw;
+    background:rgba(0,0,0,0.45) url('bg (2).png');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+#content{
+    position: relative;
+    max-width: 72%;
+    content: "";
+    top: 45vh;
+    margin: 0 auto;
+    color: aliceblue;
+}
+#content h2{
+    font-size: 2.4rem;
+}
+#content p{
+    margin-top: 32px 0;
+    font-size: 1.4rem;
+}
+.readMore{
+    border-radius: 20px;
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+    padding: 7px 13px;
+    cursor: pointer;
+    background: linear-gradient(to right,rgb(200, 200, 61),#ff469f,#ff6062);
+}
+#content::before{
+    content: '';
+    height: 100%;
+    width: 5px;
+    background: linear-gradient(#ff469f,#ff6062);
+    position: absolute;
+    left: -18px;
+}
+#Grad{
+    background: linear-gradient(to right,rgb(200, 200, 61),#ff469f,#ff6062);
+    display: block;
+    padding: 37px 0;
+    margin: 10px;
+    border-radius: 16px;
+}
+#container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 33px;
+}
+#Grad #container .item .sub-item img{
+    width: 42px;
+    mix-blend-mode: darken;
+    cursor: pointer;
+}
+.item{
+    color: aliceblue;
+    width: 25%;
+}
+.sub-item{
+    display: flex;
+    align-items: center;
+}
+.item .sub-item span{
+    font-size: 1.6rem;
+}
+#Grad #container .item .para{
+    font-size: 1.15rem;
+}
+#Grad #container .item .para{
+    margin-top: 10px;
+}
+#about-us{
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+    padding-bottom: 20px;
+}
+#about{
+    width: 45vw;
+}
+#think img{
+    mix-blend-mode: darken;
+    width: 20vw;
+}
+.h2{
+    font-size: 2rem;
+    margin: 22px 0;
+    position: relative;
+}
+.h2::before{
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 90px;
+    background: linear-gradient(to right,#ff469f,#ff6062);
+    top: 40px;
+}
+#h2-ser{
+    margin-left: 17%;
+}
+#h4{
+    font-size: 1.5rem;
+    margin-bottom: 13px;
+}
+#paragraph{
+    margin-bottom: 23px;
+}
+#services{
+    background-color: #f8f5f5;
+    padding: 16px 0;
+}
+#images{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+    padding: 25px 0 40px 0;
+}
+#images .image{
+    position: relative;
+    width: 20%;
+}
+#images .image>img{
+    width: 100%;
+    border-radius: 8px;
+}
+#images .image .overlap .circle{
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #fff;
+    border-radius: 8px;
+    position: absolute;
+    bottom: -20px;
+    right: 0px;
+    box-shadow: 7px 7px 10px rgba(0,0,0,0.18);
+    cursor: pointer;
+}
+.overlap .circle2{
+    width: 120%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #fff;
+    border-radius: 8px;
+    position: relative;
+    top: 25px;
+    box-shadow: 7px 7px 10px rgba(0,0,0,0.18);
+    cursor: pointer;
+}
+#images .image .overlap .circle .cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: linear-gradient(to right,#ff469f,#ff6062);
+}
+.overlap .circle .cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: linear-gradient(to right,#ff469f,#ff6062);
+}
+#images .image .overlap .circle .cont #tw{
+    width: 22px;
+}
+#images .image .overlap .circle .cont #fb{
+    width: 13px;
+}
+.burger{
+    display: none;
+    position:absolute;
+    cursor: pointer;
+    right:5%;
+    top:5%;
+}
+.line{
+    width:33px;
+    height:4px;
+    background-color: #f7f5f3;
+    margin:3px 3px;
+}
+@media (min-width:650px) and (max-width:980px){
+    #icon{
+        margin: 0 3px;
+    }
+    #self span{
+        margin: 0 8px;
+        font-size: 0.8rem;
+    }
+    #req{
+        font-size: 1rem;
+    }
+    #landingPage{
+        gap: 8px;
+        font-weight: 700;
+        font-size: 1.1rem;
+    }
+    #second #landingPage img{
+        width: 45px;
+    }
+    #menu-list li{
+        margin: 0 10px;
+        padding: 3px 8px;
+        font-size: 1.05rem;
+    }
+    #content{
+        top: 25vh;
+    }
+    #Grad{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #container{
+        gap: 22px;
+        margin: 13px auto;
+    }
+    .item .sub-item span{
+        font-size: 1.2rem;
+    }
+    #images .image{
+        width: 28%;
+    }
+    .overlap .circle2{
+        width: 80%;
+    }
+}
+
+@media (min-width:520px) and (max-width:650px){
+    #first{
+        flex-direction: column;
+        /* height: 12vh; */
+        padding: 8px 0;
+    }
+    #req{
+        display: none;
+    }
+    #self span{
+        margin: 7px 8px;
+        font-size: 1.2rem;
+    }
+    #second{
+        flex-direction: column;
+    }
+    #search-icon{
+        display: none;
+    }
+    #menu-list li{
+        margin: 0 10px;
+        padding: 3px 8px;
+        font-size: 1.05rem;
+    }
+    #content{
+        top: 15vh;
+    }
+    #container{
+        flex-direction: column;
+    }
+    .item{
+        width: 95%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+    .item .sub-item span{
+        font-size: 1.2rem;
+    }
+    #about-us{
+        flex-direction: column-reverse;
+    }
+    #think img{
+        mix-blend-mode: darken;
+        width: 50vw;
+    }
+    #think{
+        margin: 0 auto;
+    }
+    #about{
+        width: 80vw;
+        margin: 0 auto;
+    }
+    #images{
+        flex-direction: column;
+    }
+    #images .image{
+        width: 80%;
+    }
+    #images .image img{
+        width: 100%;
+    }
+}
+@media (min-width:460px) and (max-width:520px){
+    #content h2{
+        font-size: 1.2rem;
+    }
+    #content p{
+        font-size: 1rem;
+    }
+    #content button{
+        font-size: 1.05rem;
+    }
+    #first{
+        flex-direction: column;
+        /* height: 12vh; */
+        padding: 8px 0;
+    }
+    #req{
+        display: none;
+    }
+    #self span{
+        margin: 7px 8px;
+        font-size: 1.2rem;
+    }
+    #second{
+        flex-direction: column;
+    }
+    #search-icon{
+        display: none;
+    }
+    #menu-list li{
+        margin: 0 10px;
+        padding: 3px 8px;
+        font-size: 1.05rem;
+    }
+    #content{
+        top: 15vh;
+    }
+    #container{
+        flex-direction: column;
+        height: 100%;
+    }
+    .item{
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+    .item .sub-item span{
+        font-size: 1.2rem;
+    }
+    #about-us{
+        flex-direction: column-reverse;
+    }
+    #think img{
+        mix-blend-mode: darken;
+        width: 50vw;
+    }
+    #think{
+        margin: 0 auto;
+    }
+    #about{
+        width: 80vw;
+        margin: 0 auto;
+    }
+    #images{
+        flex-direction: column;
+    }
+    #images .image{
+        width: 80%;
+    }
+    #images .image img{
+        width: 100%;
+    }
+}
+@media (max-width:460px){
+    #content h2{
+        font-size: 1.2rem;
+    }
+    #content p{
+        font-size: 1rem;
+    }
+    #content button{
+        font-size: 0.7rem;
+    }
+    #first{
+        flex-direction: column;
+        /* height: 17vh; */
+        padding: 8px 0;
+    }
+    #req{
+        display: none;
+    }
+    #self span{
+        margin: 7px 8px;
+        font-size: 1.2rem;
+    }
+    #second{
+        flex-direction: column;
+    }
+    .burger{
+        display: block;
+    }
+    #search-icon{
+        display: none;
+    }
+    #menu-list{
+        flex-direction: column;
+    }
+    #menu-list li{
+        margin: 0 10px;
+        padding: 3px 8px;
+        font-size: 1.05rem;
+    }
+    #self span{
+        display: block;
+    }
+    #landingPage{
+        display: none;
+    }
+    #content{
+        top: 15vh;
+    }
+    #container{
+        flex-direction: column;
+        height: 100%;
+    }
+    .item{
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+    .item .sub-item span{
+        font-size: 1.2rem;
+    }
+    #about-us{
+        flex-direction: column-reverse;
+    }
+    #think img{
+        mix-blend-mode: darken;
+        width: 50vw;
+    }
+    #think{
+        margin: 0 auto;
+    }
+    #about{
+        width: 80vw;
+        margin: 0 auto;
+    }
+    #images{
+        flex-direction: column;
+    }
+    #images .image{
+        width: 80%;
+    }
+    #images .image img{
+        width: 100%;
+    }
+    .navbar{
+        display: none;
+        transition: all 0.7s;
+    }
+}

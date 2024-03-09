@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CodeSoft(c).css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar nav">
+        <div id="first" class="firstsecond">
+            <div id="icons"> 
+                <img src="twitter.png" alt="" class="icon">
+                <img src="insta.png" alt="" class="icon">
+                <img src="fb (2).png" alt="" class="icon">
+                <img src="Youtube.png" alt="" class="icon">
+            </div>
+            <div id="self">
+                <span>+12-345-7890</span>
+                <span>manishkumar180105@gmail.com</span>
+            </div>
+            <div>
+                <button id="req" class="btn">Request & Consult</button>
+            </div>
+        </div>
+        <div id="second" class="firstsecond">
+            <div id="landingPage">
+                <img src="LandingPageLogo.png" alt="">
+                <h3 class="LP">LANDING PAGE</h3>
+            </div>
+            <div id="menu">
+                <ul id="menu-list">
+                    <li>Home</li>
+                    <li>Blog</li>
+                    <li>Page</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                    <li>Buy Now</li>
+                </ul>
+            </div>
+            <div id="search-icon" class="">
+                <img src="search-icon.png" alt="">
+            </div>
+        </div>
+    </nav>
+    <div class="burger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
+    <section class="section">
+        <div id="content">
+            <h2>CREATIVE DIGITAL AGENCY DIGITAL MARKETING</h2>
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio illo consectetur temporibus odit. Eos aut omnis cumque. Itaque rerum assumenda exercitationem ad, consectetur impedit totam temporibus aut eum, commodi nemo?</P>
+            <div>
+                <button class="readMore">READ MORE</button>
+                <button class="btn">REQUEST/CONSULT</button>
+            </div>
+        </div>
+    </section>
+    <section id="Grad">
+        <div id="container">
+            <div id="rocket" class="item">
+                <div class="sub-item">
+                    <img src="rocket.png" alt="">
+                    <span>LAUNCH BUSINESS</span>
+                </div>
+                <div class="para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo!</div>
+            </div>
+            <div id="headphone" class="item">
+                <div class="sub-item">
+                    <img src="headphone.png" alt="">
+                    <span>ONLINE SUPPORT TEAM</span>
+                </div>
+                <div class="para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo!</div>
+            </div>
+            <div id="clock" class="item">
+                <div class="sub-item">
+                    <img src="clock.png" alt="">
+                    <span>TIME MANAGEMENT</span>
+                </div>
+                <div class="para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo!</div>
+            </div>
+        </div>
+    </section>
+    <section id="about-us">
+        <div id="about">
+            <h2 class="h2">ABOUT US</h2>
+            <h4 id="h4">15 years we passionate about achieving better results for our clients</h4>
+            <p id="paragraph">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo eius ipsam repellendus similique distinctio dolorem neque libero, rem excepturi quasi nisi ipsa. Ea eos, pariatur assumenda, aliquam beatae accusamus minus dolor consequuntur, soluta autem quis nemo magnam. Id sequi totam ipsam voluptatum cupiditate. Pariatur dolorum, sed numquam, quod dolorem quo hic consectetur illum sapiente amet perspiciatis asperiores dolores maxime similique.
+            </p>
+            <button class="readMore" >READ MORE</button>
+        </div>
+        <div id="think">
+            <img src="think.png" alt="">
+        </div>
+    </section>
+    <section id="services">
+        <h2 class="h2" id="h2-ser">OUR SERVICES</h2>
+        <div id="images">
+            <div class="image">
+                <img src="laptop.jpg" alt="">
+                <div class="overlap">
+                    <div class="circle">
+                        <span class="cont">
+                            <img src="tw.png" alt="" id="tw">
+                        </span>
+                        <span>USER EXPERIENCE</span>
+                    </div>
+                </div>
+            </div>
+            <div class="image">
+                <img src="laptop2.jpg" alt="">
+                <div class="overlap">
+                    <div class="circle">
+                        <span class="cont">
+                            <img src="fb.png" alt="" id="fb"> 
+                        </span>
+                        <span>CREATIVE DESIGN</span>
+                    </div>
+                </div>
+            </div>
+            <div class="overlap">
+                <div class="circle circle2">
+                    <span class="cont">
+                        <img src="ig.png" alt="" id="fb"> 
+                    </span>
+                    <span>RETINA READY</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+        let burger=document.querySelector('.burger');
+        let nav=document.querySelector('.nav')
+        burger.addEventListener('click',()=>{
+            nav.classList.toggle('navbar');
+        })
+    </script>
+</body>
+</html>
