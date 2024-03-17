@@ -1,0 +1,714 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 38px;
+}
+#navbar #sign img{
+    width: 156px;
+    mix-blend-mode: darken;
+}
+.list ul{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.list ul li{
+    list-style-type: none;
+    padding: 7px 16px;
+    cursor: pointer;
+    font-size: 1.3rem;
+}
+.sect1{
+    margin: 4% 5%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.content{
+    width: 45%;
+}
+.heading{
+    font-size: 38px;
+    margin: 27px 0;
+}
+.content .message{
+    font-size: 20px;
+    line-height: 30px;
+    color: #d081f4;
+}
+.logos{
+    display: flex;
+    gap: 16px;
+    margin: 15px 4px;
+}
+.logos .logo img{
+    width: 42px;
+    cursor: pointer;
+    mix-blend-mode: darken;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+}
+.buttons{
+    display: flex;
+    gap: 23px;
+}
+.btn{
+    background-color: #ae02fd;
+    border-radius: 5px;
+    padding: 9px 18px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.bg img{
+    width: 130%;
+    mix-blend-mode: darken;
+}
+.tools{
+    display: flex;
+    gap: 20px;
+}
+.tools img{
+    width: 60px;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    mix-blend-mode: darken;
+}
+.message2{
+    font-size: 20px;
+    line-height: 30px;
+    color: #9f99a2;
+}
+.progress{
+    width: 400px;
+    height: 14px;
+    border-radius: 10px;
+    background-color: #d5c7c7;
+}
+.tech{
+    font-size: 20px;
+    margin: 0 0 12px 0;
+}
+.progress-level{
+    height: 100%;
+    border-radius: 10px;
+    background-color: #d790ec;
+}
+.progress-level-1{
+    width: 90%;
+}
+.progress-level-2{
+    width: 75%;
+}
+.progress-level-3{
+    width: 60%;
+}
+
+#Project-heading{
+    margin-left: 60px;
+}
+.cards .card-pairs{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 15px 0;
+}
+.cards .card-pairs .card{
+    width: 43%;
+    box-shadow: 7px 7px 10px rgba(0,0,0,0.18);
+    padding: 20px 15px;
+    border-radius: 20px;
+    background-color: #fcfbfb;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+.cards .card-pairs .card:hover{
+    transform: scale(1.05);
+}
+.cards .card-pairs .card .head{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+}
+.cards .card-pairs .card .description{
+    font-size: 1.25rem;
+    color: #928c96;
+    margin-bottom: 36px;
+}
+.cards .card-pairs .card .head img{
+    width: 22px;
+    height: 22px;
+    mix-blend-mode: darken;
+}
+.cards .card-pairs .card .ack img{
+    width: 17px;
+    height: 17px;
+    mix-blend-mode: darken;
+}
+.cards .card-pairs .card .ack{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.cards .card-pairs .card .ack .inner{
+    display: flex;
+    gap: 18px;
+    font-size: 1rem;
+    align-items: center;
+}
+.cards .card-pairs .card .ack .inner .feature{
+    display: flex;
+    align-items: center;
+}
+.cards .card-pairs .card .ack .inner .yellow{
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background-color: yellow;
+}
+.sect2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+.more-projects{
+    display: block;
+    margin: auto;
+}
+.achievement-heading,.achievement-message{
+    margin-left: 5%;
+}
+.achievement-message{
+    margin-bottom: 10px;
+}
+.b-g-projects-img img{
+    width: 400px;
+}
+.achievement-heading,.podcast-heading{
+    display: flex;
+    align-items: center;
+}
+.achievement-heading img{
+    width: 60px;
+}
+.cards-2 .card-2{
+    width: 30%;
+    box-sizing: border-box;
+    border: 1px solid whitesmoke;
+    border-radius: 13px;
+    box-shadow: 7px 7px 10px rgba(0,0,0,0.18);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 3%;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+.cards-2 .card-2:hover{
+    transform: scale(1.05);
+}
+.cards-2 .card-2 img{
+    width: 65%;
+}
+.cards-2{
+    display: flex;
+    justify-content: space-evenly;
+}
+.cards-2 .card-2 p{
+    color: rgb(172, 177, 177);
+    font-size: 1.15rem;
+    text-align: center;
+}
+.cards-2 .card-2 .head-title{
+    font-size: 1.56rem;
+    margin: 15px 0;
+}
+.cards-2 .card-2 .view{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 15px;
+}
+#Gaa{
+    margin: 15px 0;
+}
+.blog{
+    display: flex;
+    justify-content: center;
+}
+.blogs{
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+}
+.cards3{
+    display: flex;
+    justify-content: space-evenly;
+}
+.cards3 .card3{
+    width: 43%;
+    padding: 20px;
+    border: 1px solid whitesmoke;
+    border-radius: 4px;
+    box-shadow: 7px 7px 10px rgba(0,0,0,0.18);
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+.card3-heading{
+    margin: 10px 0;
+}
+.message3{
+    color: rgb(172, 177, 177);
+    font-size: 1.15rem;
+}
+.cards3 .card3 .arrow{
+    position: absolute;
+    height: 46px;
+    width: 46px;
+    border-bottom-left-radius: 100%;
+    border-top-right-radius: 4px;
+    top: 0;
+    right: 0;
+    background-color: #ae0bdb;
+    transition: all 0.8s;
+}
+.cards3 .card3:hover{
+    color: #fff;
+}
+.cards3 .card3:hover .arrow{
+    border-radius: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.cards3 .card3:hover .arrow img{
+    display: none;
+}
+.cards3 .card3 .arrow img{
+    width: 37px;
+    margin-top: 12px;
+}
+.talks{
+    margin-left: 8%;
+}
+.box{
+    border: 1px solid whitesmoke;
+    border-radius: 2px;
+    padding: 3%;
+    box-shadow: 7px 7px 10px rgba(0,0,0,0.18);
+    width: 28%;
+    margin: 20px auto;
+}
+#talks-heading{
+    margin-bottom: 7%;
+}
+#talks-GDC{
+    font-size: 19px;
+    margin-bottom: 12px;
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+}
+#tweets-head{
+    display: inline;
+}
+#tweet-content{
+    margin-left: 4%;
+}
+.tweet-message{
+    margin-bottom: 70px;
+}
+.blue-text{
+    color: rgb(45, 95, 176);
+}
+#youtube{
+    width: 50px;
+    height: 50px;
+}
+.sub-title img{
+    width: 20px;
+    height: 20px;
+}
+.sub-title{
+    display: flex;
+    align-items: center;
+}
+#horse,#ice-cream{
+    width: 16px;
+}
+.para{
+    display: inline;
+    font-size: 28px;
+}
+.podcast-heading img{
+    width: 60px;
+}
+.song{
+    display: flex;
+}
+#left{
+    width: 10%px;
+    background: linear-gradient(to right,yellow,rgb(224, 58, 86));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#left img{
+    width: 70px;
+    mix-blend-mode: darken;
+}
+.forAndBack img{
+    width: 30px;
+}
+#right{
+    width: 85%;
+    background-color: #d5d0d0;
+    position: relative;
+}
+.song-detail{
+    margin: 16px 10px 10px 10px;
+}
+.song-message{
+    margin: 16px 10px 13px 10px;
+}
+.forAndBack{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.forAndBack img{
+    mix-blend-mode: darken;
+}
+#purple{
+    height: 7px;
+    width: 100%;
+    background-color: #de8fed;
+    position: absolute;
+    bottom: 0;
+}
+.final .left-details{
+    width: 65%;
+}
+.final .left-details > img, .location > img{
+    width: 20px;
+}
+.final-details{
+    display: inline;
+}
+.space1{
+    margin: 14px 0;
+    display: inline;
+}
+.space2{
+    margin-bottom: 14px;
+}
+.right-pic img{
+    width: 50%; 
+    border: 7px solid rgb(107, 40, 195);
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
+.final{
+    width: 92%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+}
+
+@media (min-width:850px) and (max-width:1050px){
+    .list ul{
+        gap: 10px;
+    }
+    .list ul li{
+        padding: 7px 11px;
+        font-size: 1.1rem;
+    }
+    .b-g-projects-img img{
+        width: 250px;
+    }
+    .tools{
+        flex-direction: column;
+    }
+}
+@media (min-width:750px) and (max-width:850px){
+    #navbar{
+        flex-direction: column;
+    }
+    #sign img{
+        display: block;
+        margin: auto;
+    }
+    .list ul{
+        gap: 10px;
+    }
+    .list ul li{
+        padding: 7px 11px;
+        font-size: 1.1rem;
+    }
+    .b-g-projects-img img{
+        width: 250px;
+    }
+    .tools{
+        flex-direction: column;
+    }
+    .cards-2{
+        flex-direction: column;
+        gap: 16px;
+    }
+    .cards-2 .card-2{
+        width: 85%;
+        margin: auto;
+    }
+    .cards3{
+        gap: 15px;
+    }
+    .box{
+        width: 60%;
+    }
+}
+@media (min-width:700px) and (max-width:750px){
+    #navbar{
+        flex-direction: column;
+    }
+    #sign img{
+        display: block;
+        margin: auto;
+    }
+    .list ul{
+        gap: 10px;
+    }
+    .list ul li{
+        padding: 7px 11px;
+        font-size: 1.1rem;
+    }
+    .sect1{
+        flex-direction: column-reverse;
+    }
+    .content{
+        width: 90%;
+    }
+    .reverse{
+        flex-direction: column;
+    }
+    .progress{
+        width: 600px;
+    }
+    .cards .card-pairs{
+        flex-direction: column;
+        width: 100%;
+        gap: 16px;
+    }
+    .cards .card-pairs .card{
+        width: 85%;
+        margin: auto;
+    }
+    .b-g-projects-img img{
+        width: 250px;
+    }
+    .cards-2{
+        flex-direction: column;
+        gap: 16px;
+    }
+    .cards-2 .card-2{
+        width: 85%;
+        margin: auto;
+    }
+    .cards3{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .cards3 .card3{
+        width: 80%;
+        margin: auto;
+    }
+    .box{
+        width: 60%;
+    }
+    .song{
+        width: 450px;
+    }
+    .final{
+        flex-direction: column-reverse;
+    }
+    .right-pic img{
+        width: 44%; 
+        border: 7px solid rgb(107, 40, 195);
+        border-radius: 50%;
+        display: block;
+        margin: 20px auto;
+    }
+    .final .left-details{
+        width: 90%;
+    }
+}
+@media (min-width:380px) and (max-width:700px){
+    #navbar{
+        flex-direction: column;
+    }
+    #sign img{
+        display: block;
+        margin: auto;
+    }
+    .list ul{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .list ul li{
+        padding: 7px 11px;
+        font-size: 1.1rem;
+    }
+    .sect1{
+        flex-direction: column-reverse;
+    }
+    .content{
+        width: 90%;
+    }
+    .reverse{
+        flex-direction: column;
+    }
+    .progress{
+        width: 350px;
+    }
+    .cards .card-pairs{
+        flex-direction: column;
+        width: 100%;
+        gap: 16px;
+    }
+    .cards .card-pairs .card{
+        width: 85%;
+        margin: auto;
+    }
+    .b-g-projects-img img{
+        width: 120px;
+    }
+    .cards-2{
+        flex-direction: column;
+        gap: 16px;
+    }
+    .cards-2 .card-2{
+        width: 85%;
+        margin: auto;
+    }
+    .cards3{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .cards3 .card3{
+        width: 80%;
+        margin: auto;
+    }
+    .box{
+        width: 60%;
+    }
+    .song{
+        width: 300px;
+    }
+    .final{
+        flex-direction: column-reverse;
+    }
+    .right-pic img{
+        width: 44%; 
+        border: 7px solid rgb(107, 40, 195);
+        border-radius: 50%;
+        display: block;
+        margin: 20px auto;
+    }
+    .final .left-details{
+        width: 90%;
+    }
+}
+@media (max-width:380px){
+    #navbar{
+        flex-direction: column;
+    }
+    #sign img{
+        display: block;
+        margin: auto;
+    }
+    .list ul{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .list ul li{
+        padding: 7px 11px;
+        font-size: 1.1rem;
+    }
+    .sect1{
+        flex-direction: column-reverse;
+    }
+    .content{
+        width: 90%;
+    }
+    .reverse{
+        flex-direction: column;
+    }
+    .progress{
+        width: 200px;
+    }
+    .cards .card-pairs{
+        flex-direction: column;
+        width: 100%;
+        gap: 16px;
+    }
+    .cards .card-pairs .card{
+        width: 85%;
+        margin: auto;
+    }
+    .b-g-projects-img img{
+        width: 100px;
+    }
+    .cards-2{
+        flex-direction: column;
+        gap: 16px;
+    }
+    .cards-2 .card-2{
+        width: 85%;
+        margin: auto;
+    }
+    .cards3{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .cards3 .card3{
+        width: 80%;
+        margin: auto;
+    }
+    .box{
+        width: 60%;
+    }
+    .song{
+        width: 200px;
+    }
+    .forAndBack{
+        width: 50px;
+    }
+    .final{
+        flex-direction: column-reverse;
+    }
+    .right-pic img{
+        width: 44%; 
+        border: 7px solid rgb(107, 40, 195);
+        border-radius: 50%;
+        display: block;
+        margin: 20px auto;
+    }
+    .final .left-details{
+        width: 90%;
+    }
+}
